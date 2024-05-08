@@ -12,6 +12,7 @@
 
 a {
   text-decoration: none;
+  color: #222;
 }
 
 ul {
@@ -54,35 +55,52 @@ body #first_page .top header .textbox .text_box_2 {
   height: 50%;
   position: absolute;
   top: -50px;
+  display: flex;
+}
+body #first_page .top header .textbox .text_box_2 h2 {
+  width: 200px;
+  left: 1px;
+  text-align: left;
+  font-size: 50px;
+  line-height: 50px;
 }
 body #first_page .top header .textbox .text_box_2 p {
   position: absolute;
-  right: 100px;
-  top: 200%;
-  transform: translateY(-50%);
+  right: 1px;
 }
-body #first_page .top .sub_menu {
+body #first_page .top nav {
+  width: 100%;
   position: absolute;
-  right: 0;
-  width: 100px;
-  display: flex;
+  top: 0px;
+  right: 5%;
+  display: inline-flex;
   justify-content: flex-end;
   align-items: center;
 }
-body #first_page .top .sub_menu > li {
+body #first_page .top nav .sub_menu li {
   flex: 1;
-  position: relative;
-  margin: 15px 0px;
+  width: 100px;
+  display: inline-block;
+  margin: 15px;
   height: 50px;
   line-height: 50px;
 }
-body #first_page .top .sub_menu > li a {
-  border: 5px solid #000;
+body #first_page .top nav .bottom {
+  width: 1200px;
+  height: 1000px;
+  margin: 0 auto;
 }
-body #first_page .top .bottom {
-  width: 50%;
-  height: 50%;
-  position: relative;
+body #first_page .top nav .bottom .right_img {
+  display: block;
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  background: url(../img/1.jpg) no-repeat 0px 0px;
+}
+body #first_page .top nav .bottom .right_img:nth-of-type(1) {
+  width: 1358px;
+  height: 1795px;
+  background-position: -2005px -556px;
 }
 
 /*# sourceMappingURL=style.css.map */
