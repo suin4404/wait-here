@@ -88,7 +88,12 @@ body {
 						height: 50px;
 						line-height: 50px;
 						a {
-							// border: 5px solid #000;
+							border: 5px solid #000;
+						}
+						&:hover{
+							width: 100px;
+							background-color: #fff;
+
 						}
 					}
 				}
@@ -104,7 +109,7 @@ body {
 						position: absolute;
 						width: 300px;
 						height: 400px;
-						background: url(../img/1.jpg) no-repeat 0px 0px;
+						background: url(../img/웨히\ 이미지.png) no-repeat 0px 0px;
 						&:nth-of-type(1) {
 							width: 1358px;
 							height: 1795px;
